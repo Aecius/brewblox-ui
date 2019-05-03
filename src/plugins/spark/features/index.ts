@@ -14,9 +14,9 @@ import ProcessView from './ProcessView';
 import SessionView from './SessionView';
 import SetpointProfile from './SetpointProfile';
 import SetpointSensorPair from './SetpointSensorPair';
+import Stepper from './Stepper';
 import TempSensorMock from './TempSensorMock';
 import TempSensorOneWire from './TempSensorOneWire';
-import ValveController from './ValveController';
 
 const features: { [id: string]: Feature } = {
   ActuatorAnalogMock,
@@ -32,11 +32,11 @@ const features: { [id: string]: Feature } = {
   Mutex,
   SetpointProfile,
   SetpointSensorPair,
+  Stepper,
   ProcessView,
   SessionView,
   TempSensorMock,
   TempSensorOneWire,
-  ValveController,
 };
 
 export default features;

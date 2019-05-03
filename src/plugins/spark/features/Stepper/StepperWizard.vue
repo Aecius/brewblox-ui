@@ -7,7 +7,7 @@ import get from 'lodash/get';
 
 
 @Component
-export default class ValveControllerWizard extends WidgetWizardBase {
+export default class StepperWizard extends WidgetWizardBase {
   service: Service | null = null;
 
   get serviceId(): string {
@@ -32,7 +32,7 @@ export default class ValveControllerWizard extends WidgetWizardBase {
       order: 0,
       config: {
         serviceId: this.serviceId,
-        actuatorIds: [],
+        steps: [],
       },
       ...this.defaultWidgetSize,
     });

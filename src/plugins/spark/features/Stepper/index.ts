@@ -1,11 +1,11 @@
 import { ref } from '@/helpers/component-ref';
 import { Feature } from '@/store/features/state';
-import widget from './ValveControllerWidget.vue';
-import wizard from './ValveControllerWizard.vue';
+import widget from './StepperWidget.vue';
+import wizard from './StepperWizard.vue';
 
 const feature: Feature = {
-  id: 'ValveController',
-  displayName: 'Valve Controller',
+  id: 'Stepper',
+  displayName: 'Stepper',
   widget: ref(widget),
   wizard: ref(wizard),
   widgetSize: {
