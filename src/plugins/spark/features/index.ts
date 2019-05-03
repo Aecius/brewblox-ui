@@ -16,6 +16,7 @@ import SetpointProfile from './SetpointProfile';
 import SetpointSensorPair from './SetpointSensorPair';
 import TempSensorMock from './TempSensorMock';
 import TempSensorOneWire from './TempSensorOneWire';
+import ValveController from './ValveController';
 
 const features: { [id: string]: Feature } = {
   ActuatorAnalogMock,
@@ -32,9 +33,10 @@ const features: { [id: string]: Feature } = {
   SetpointProfile,
   SetpointSensorPair,
   ProcessView,
+  SessionView,
   TempSensorMock,
   TempSensorOneWire,
-  SessionView,
+  ValveController,
 };
 
 export default features;
